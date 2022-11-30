@@ -1,5 +1,3 @@
-import Search from "../components/search/Search";
-
 export default function Home() {
   return (
     <div className="">
@@ -9,9 +7,7 @@ export default function Home() {
           alt="google image"
         />
 
-        <div className="">
-          <Search />
-        </div>
+        <div className="">hector</div>
       </div>
     </div>
   );
