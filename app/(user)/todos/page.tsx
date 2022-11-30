@@ -1,5 +1,3 @@
-import TodosList from "./TodosList";
-
 type Props = {};
 
 function Todos({}: Props) {

@@ -4,6 +4,8 @@ type Props = {};
 const fetchTodos = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/todos");
   const todos = await res.json();
+  const timeout = Math.floor(Math.random() * 5 * 1) * 1000;
+  await new Promise((resolve) => setTimeout(resolve, timeout));
   return todos;
 };
 async function TodosList({}: Props) {

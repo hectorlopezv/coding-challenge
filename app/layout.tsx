@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title></title>
+        <title>hector website</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="icon" href="/favicon.ico" />
       </head>
